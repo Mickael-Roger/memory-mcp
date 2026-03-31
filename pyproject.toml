@@ -5,13 +5,16 @@ description = "Local Memory MCP Server for OpenCode"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "faiss-cpu>=1.7.4",
+    "faiss>=1.7.4",
     "mcp>=1.0.0",
     "python-dotenv>=1.0.0",
     "requests>=2.31.0",
     "pydantic>=2.0.0",
-    "openai>=2.30.0",
+    "openai>=2.7.0",
 ]
+
+[project.scripts]
+memory-mcp = "memory_mcp.server:main"
 
 [project.optional-dependencies]
 dev = [
