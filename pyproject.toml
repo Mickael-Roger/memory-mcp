@@ -1,6 +1,6 @@
 [project]
 name = "opencode-memory"
-version = "0.4.3"
+version = "0.4.4"
 description = "Local Memory MCP Server for OpenCode"
 readme = "README.md"
 requires-python = ">=3.13"
