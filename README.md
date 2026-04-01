@@ -32,10 +32,10 @@ Add to your OpenCode MCP configuration file:
     "memory": {
       "type": "local",
       "enabled": true,
-      "command": ["uv", "run", "python", "-m", "memory_mcp.server"],
+      "command": ["uvx", "--from", "opencode-memory", "memory-mcp", "--stdio"],
       "environment": {
-        "MEMORY_USER_ID": "your_user_id",
-        "MEMORY_DATA_DIR": "/path/to/data",
+        "MEMORY_USER_ID": "user_name",
+        "MEMORY_DATA_DIR": "{env:HOME}/.memory",
         "EMBEDDING_PROVIDER": "openai",
         "EMBEDDING_API_KEY": "your_api_key"
       }
