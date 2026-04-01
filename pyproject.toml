@@ -5,7 +5,7 @@ description = "Local Memory MCP Server for OpenCode"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "faiss>=1.7.4",
+    "faiss-cpu>=1.7.4",
     "mcp>=1.0.0",
     "python-dotenv>=1.0.0",
     "requests>=2.31.0",
