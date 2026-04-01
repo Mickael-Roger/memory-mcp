@@ -1,11 +1,11 @@
 { pkgs }:
 
 pkgs.python3Packages.buildPythonApplication {
-  pname = "memory-mcp";
-  version = "0.1.0";
+  pname = "opencode-memory";
+  version = "0.4.0";
 
   src = pkgs.fetchFromGitHub {
-    owner = "mickael-koenig";
+    owner = "Mickael-Roger";
     repo = "memory-mcp";
     rev = "HEAD";
     hash = "";

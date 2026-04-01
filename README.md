@@ -44,7 +44,11 @@ Add to your OpenCode MCP configuration file:
 }
 ```
 
-Or using a shell wrapper script (`memory-mcp`):
+Or after installing via pip:
+
+```bash
+uvx opencode-memory
+```
 
 ```bash
 #!/bin/bash
